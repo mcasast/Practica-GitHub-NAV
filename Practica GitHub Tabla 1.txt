@@ -1,0 +1,32 @@
+OBJECT Table 94000 Practica GitHub Tabla 1
+{
+  OBJECT-PROPERTIES
+  {
+    Date=09/08/15;
+    Time=13:01:12;
+    Modified=Yes;
+    Version List=PRACT-GIT;
+  }
+  PROPERTIES
+  {
+  }
+  FIELDS
+  {
+    { 1   ;   ;Code                ;Code10         }
+    { 2   ;   ;Description         ;Text30         }
+  }
+  KEYS
+  {
+    {    ;Code                                    ;Clustered=Yes }
+  }
+  FIELDGROUPS
+  {
+  }
+  CODE
+  {
+
+    BEGIN
+    END.
+  }
+}
+

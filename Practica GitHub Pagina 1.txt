@@ -1,0 +1,38 @@
+OBJECT Page 94000 Practica GitHub Pagina 1
+{
+  OBJECT-PROPERTIES
+  {
+    Date=09/08/15;
+    Time=13:01:28;
+    Modified=Yes;
+    Version List=PRACT-GIT;
+  }
+  PROPERTIES
+  {
+    SourceTable=Table94000;
+    PageType=List;
+  }
+  CONTROLS
+  {
+    { 1000000000;0;Container;
+                ContainerType=ContentArea }
+
+    { 1000000001;1;Group  ;
+                Name=Group;
+                GroupType=Repeater }
+
+    { 1000000002;2;Field  ;
+                SourceExpr=Code }
+
+    { 1000000003;2;Field  ;
+                SourceExpr=Description }
+
+  }
+  CODE
+  {
+
+    BEGIN
+    END.
+  }
+}
+
